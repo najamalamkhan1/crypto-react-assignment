@@ -8,9 +8,9 @@ function Crypto() {
     useEffect(() => {
 
         axios.get('https://api.coingecko.com/api/v3/coins/').then(
-            (item) => {
-                setCurrency(item.data)
-                console.log(item.data)
+            (res) => {
+                setCurrency(res.data)
+                console.log(res.data)
             }
         ).catch(
             (err) => { console.log(err) }

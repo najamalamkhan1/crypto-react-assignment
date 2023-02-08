@@ -28,7 +28,7 @@ function Home() {
             </div>
 
             {/* Crasoule section */}
-            <div className="carasoul">
+            <div className=" container carasoul h-50">
 
                 <div id="carouselExampleControls" className="carousel slide mt-2" data-bs-ride="carousel">
                     <div className="carousel-inner">

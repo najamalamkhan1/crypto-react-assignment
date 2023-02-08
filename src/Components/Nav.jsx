@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 function Nav() {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-l navbar-light bg-transparent">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to={'/'}>Navbar</Link>
+                    <Link className="navbar-brand" to={'/'}>MoneyGram</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -22,7 +22,7 @@ function Nav() {
                                 <Link className="nav-link" to={'aboutus'}>About us</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                <Link className="nav-link" to={'contactus'} aria-disabled="true">Contact us</Link>
                             </li>
                         </ul>
                     </div>
